@@ -4,6 +4,14 @@
 
 [@ Vercel](https://api-project-final-g7mp.vercel.app/)
 
+## API
+
+[Dokumentation] (https://openweathermap.org/forecast5)
+
+> Call 5 day / 3 hour forecast data
+
+> 60 calls/minute
+
 ## Aufgaben
 
 > :heavy_check_mark: ENV-Variablen für persönliche Zugangsdaten (.env.local für Ausschluss bei GitHub)
