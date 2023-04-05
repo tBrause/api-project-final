@@ -12,10 +12,6 @@
 
 > 60 calls/minute ar free
 
-## Struktur
-
-![alt text](https://github.com/tBrause/api-project-final/blob/master/structure.jpg?raw=true)
-
 ## Aufgaben
 
 > :heavy_check_mark: ENV-Variablen für persönliche Zugangsdaten (.env.local für Ausschluss bei GitHub)
@@ -35,6 +31,10 @@
 > Konfiguration der Icons mit JSON-Datei
 
 > :heavy_check_mark: Veröffentlichung @ [Vercel](https://api-project-final-g7mp.vercel.app/) mit ENV-Variablen
+
+## Struktur
+
+![alt text](https://github.com/tBrause/api-project-final/blob/master/structure.jpg?raw=true)
 
 ## NPM-Packages
 
