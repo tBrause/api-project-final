@@ -1,0 +1,9 @@
+{
+    "name": "Vite & React Projekt @ cimdata",
+    "short_name": "Api Project",
+    "description": "Filter for OpenWeather API",
+    "theme_color": "#262626",
+    "background_color": "#262626",
+    "display": "minimal-ui",
+    "orientation": "portrait"
+}
