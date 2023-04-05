@@ -12,7 +12,9 @@
 
 > 60 calls/minute ar free
 
-![alt text](https://github.com/tBrause/api-project-final/blob/master/structure.jpg)
+## Struktur
+
+![alt text](https://github.com/tBrause/api-project-final/blob/master/structure.jpg?raw=true)
 
 ## Aufgaben
 
