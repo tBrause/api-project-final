@@ -6,23 +6,23 @@
 
 ## Aufgaben
 
-> _ENV-Variablen für persönliche Zugangsdaten (.env.local für Ausschluss bei GitHub)_
+> ENV-Variablen für persönliche Zugangsdaten (.env.local für Ausschluss bei GitHub) :heavy_check_mark:
 
-> _Speichern des Aufrufs der Seite (API soll nur jede Stunde abgefragt werden)_
+> Speichern des Aufrufs der Seite (API soll nur jede Stunde abgefragt werden) :heavy_check_mark:
 
-> Nach einer Stunde wird der Wert des Aufrufs aktualisiert
+> Nach einer Stunde wird der Wert des Aufrufs aktualisiert :heavy_check_mark:
 
 > Startseite mit Button für automatische Standortbestimmung und Input für Ortsnamensuche
 
-> _Automatische Position mit GeoLocation bestimmen_
+> Automatische Position mit GeoLocation bestimmen :heavy_check_mark:
 
-> _Daten von API-openweathermap mit redaxios_
+> Daten von API-openweathermap mit redaxios :heavy_check_mark:
 
-> _API Daten in LocalStorage speicher_
+> API Daten in LocalStorage speicher :heavy_check_mark:
 
-> _Konfiguration der Icons mit JSON-Datei_ :heavy_check_mark:
+> Konfiguration der Icons mit JSON-Datei :heavy_check_mark:
 
-> _Veröffentlichung @ [Vercel](https://npm-vite-react-sass-8oup.vercel.app/)_
+> Veröffentlichung @ [Vercel](https://api-project-final-g7mp.vercel.app/) :heavy_check_mark:
 
 ## NPM-Packages
 
