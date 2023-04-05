@@ -4,6 +4,6 @@
     "description": "Filter for OpenWeather API",
     "theme_color": "#262626",
     "background_color": "#262626",
-    "display": "minimal-ui",
+    "display": "fullscreen",
     "orientation": "portrait"
 }
