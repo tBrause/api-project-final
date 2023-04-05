@@ -36,15 +36,17 @@
 
 > Layout HTML SASS
 
-> Filter Temperatur
+> :heavy_check_mark: Filter Temperatur
 
-> Filter Wind
+> :heavy_check_mark: Filter Wind
 
-> Filter Bewölkung
+> :heavy_check_mark: Filter Bewölkung
 
 > Filter Regen
 
 > Filter Tag / Nacht
+
+> :heavy_check_mark: manifest.json for Mobile
 
 ## Struktur
 
