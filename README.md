@@ -30,7 +30,7 @@
 
 > Konfiguration der Icons mit JSON-Datei
 
-> :heavy_check_mark: Veröffentlichung @ [Vercel](https://api-project-final-g7mp.vercel.app/)
+> :heavy_check_mark: Veröffentlichung @ [Vercel](https://api-project-final-g7mp.vercel.app/) mit ENV-Variablen
 
 ## NPM-Packages
 
