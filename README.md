@@ -32,6 +32,18 @@
 
 > :heavy_check_mark: Veröffentlichung @ [Vercel](https://api-project-final-g7mp.vercel.app/) mit ENV-Variablen
 
+> Layout HTML SASS
+
+> Filter Temperatur
+
+> Filter Wind
+
+> Filter Bewölkung
+
+> Filter Regen
+
+> Filter Tag / Nacht
+
 ## Struktur
 
 ![alt text](https://github.com/tBrause/api-project-final/blob/master/structure.jpg?raw=true)
