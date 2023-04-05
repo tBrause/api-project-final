@@ -1,40 +1,43 @@
-// DATA
-import owm from '../owm.json';
-
 // USE
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 // COMPONENTS
 import AreaFilter from './AreaFilter';
 import AreaCity from './AreaCity';
 import AreaList from './AreaList';
+import AreaResults from './AreaResults';
 
+// EXPORT
 export default function Filter({ listData, cityData }) {
-	// console.log(listData);
-	// console.log(cityData);
+	// useStae
 	const [filterTemp, setFilterTemp] = useState(0);
 	const [filterWind, setFilterWind] = useState(0);
 
-	// useEffect(() => {
-	// 	setFilterTemp(20);
-	// }, []);
+	// Function Filter
+	const filteredData = getFilteredData(listData, filterTemp, filterWind);
 
-	// console.log(filterTemp);
-
+	// Return
 	return (
 		<>
-			<div>{filterTemp}</div>
-			<div>{filterWind}</div>
 			<AreaFilter
 				listData={listData}
 				cityData={cityData}
 				setFilterTemp={setFilterTemp}
 				setFilterWind={setFilterWind}
 			/>
+			{filteredData && <AreaResults filteredData={filteredData} />}
 			<main className="main_container">
 				<AreaCity cityData={cityData} />
-				<AreaList listData={listData} />
+				{filteredData && <AreaList filteredData={filteredData} />}
 			</main>
 		</>
 	);
+}
+
+// Function Filter
+function getFilteredData(listData, filterTemp, filterWind) {
+	const filteredData = listData
+		.filter(({ main }) => main && main.temp <= filterTemp)
+		.filter(({ wind }) => wind && wind.speed <= filterWind);
+	return filteredData;
 }

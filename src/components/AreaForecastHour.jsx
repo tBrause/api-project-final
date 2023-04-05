@@ -45,7 +45,7 @@ export default function AreaForecastHour({
 	// Datum
 	const h = new Date(dt_txt).toLocaleString('de-DE', optionsDate);
 	const t = new Date(dt_txt).toLocaleTimeString('de-DE', optionsTime);
-	console.log(t);
+	// console.log(t);
 
 	if (dayOld !== h) {
 		// console.log('Neuer Tag');
