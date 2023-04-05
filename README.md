@@ -20,7 +20,7 @@
 
 > _API Daten in LocalStorage speicher_
 
-> _Konfiguration der Icons mit JSON-Datei_ :white_check_mark:
+> _Konfiguration der Icons mit JSON-Datei_ :heavy_check_mark:
 
 > _Veröffentlichung @ [Vercel](https://npm-vite-react-sass-8oup.vercel.app/)_
 
