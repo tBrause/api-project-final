@@ -30,6 +30,10 @@
 
 ## Installation
 
+> CMD: Projektordner erstellen und hinein wechseln
+
+    mkdir _Name_; cd _Name_
+
 > CMD: git clone & git remote remove orgin & npm install & npm run build & npm run dev
 
     git clone https://github.com/tBrause/api-owm-project .; git remote remove origin; npm install; npm run build; npm run dev
