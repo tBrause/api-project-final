@@ -4,12 +4,14 @@
 	background-color: #fff;
 
 	&_form {
-		display: block;
+		display: flex;
+		justify-content: center;
 		width: 90vw;
 		min-width: 280px;
-		max-width: 400px;
+		// max-width: 400px;
 		margin: auto;
 		// background-color: #65001c;
+		display: flex;
 	}
 	&_sky_icons {
 		display: flex;
@@ -29,22 +31,24 @@
 		}
 	}
 	&_temp_range,
-	&_wind_range {
+	&_wind_range,
+	&_sky_range {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
 		padding: 1rem 0;
+		min-width: 300px;
 		accent-color: var(--theme-color-06);
 
 		label {
 			min-width: 80px;
 		}
 		input {
-			width: calc(100% - 1rem);
+			// width: calc(100% - 1rem);
 			// height: 1.9rem;
 			padding: 1rem 0;
-			max-width: 200px;
+			// max-width: 200px;
 			cursor: pointer;
 		}
 	}

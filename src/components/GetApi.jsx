@@ -3,13 +3,14 @@ import axios from 'redaxios';
 
 // USE
 import { useEffect, useState } from 'react';
-import AreaCity from './AreaCity';
-import AreaList from './AreaList';
+
+// COMPONETS
 import Filter from './Filter';
 
 // ENV Vars
 const { VITE_OPENWEATHERMAP_API_KEY } = import.meta.env;
 
+// EXPORT
 export default function GetApi({ lat, lon }) {
 	// useState
 	const [cityData, setCityData] = useState();
@@ -25,6 +26,7 @@ export default function GetApi({ lat, lon }) {
 			return;
 		}
 
+		// Check Update
 		if (
 			localStorage.getItem('city') &&
 			localStorage.getItem('list') &&
@@ -71,19 +73,15 @@ export default function GetApi({ lat, lon }) {
 				setResponseSuccess(1);
 			} catch (error) {
 				console.log(error);
+				// Stop Reqest
 				setResponseSuccess(1);
 			}
 		}
+
+		// Function getApi
 		getApi();
 	}, [lat, lon, localUpdate, cityData, listData, responseSuccess]);
 
-	return (
-		<>
-			{/* {cityData && <AreaCity cityData={cityData} />}
-			<div className="list">{listData && <AreaList listData={listData} />}</div> */}
-			{listData && <Filter listData={listData} cityData={cityData} />}
-		</>
-	);
+	// Return
+	return <>{listData && <Filter listData={listData} cityData={cityData} />}</>;
 }
-
-// // appid: `${OPENWEATHERMAP_API_KEY}`,

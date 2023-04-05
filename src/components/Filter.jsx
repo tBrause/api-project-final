@@ -9,35 +9,51 @@ import AreaResults from './AreaResults';
 
 // EXPORT
 export default function Filter({ listData, cityData }) {
-	// useStae
+	// useState
 	const [filterTemp, setFilterTemp] = useState(0);
 	const [filterWind, setFilterWind] = useState(0);
+	const [filterSky, setFilterSky] = useState(0);
 
-	// Function Filter
-	const filteredData = getFilteredData(listData, filterTemp, filterWind);
+	// () getFilteredData
+	const filteredData = getFilteredData(
+		listData,
+		filterTemp,
+		filterWind,
+		filterSky
+	);
 
-	// Return
+	// console.log(listData);
+
+	// RETURN
 	return (
 		<>
-			<AreaFilter
-				listData={listData}
-				cityData={cityData}
-				setFilterTemp={setFilterTemp}
-				setFilterWind={setFilterWind}
-			/>
+			{/* AreaFilter */}
+			{listData && (
+				<AreaFilter
+					listData={listData}
+					setFilterTemp={setFilterTemp}
+					setFilterWind={setFilterWind}
+					setFilterSky={setFilterSky}
+				/>
+			)}
+
+			{/* AreaResults */}
 			{filteredData && <AreaResults filteredData={filteredData} />}
+
+			{/* AreaCity & AreaList */}
 			<main className="main_container">
-				<AreaCity cityData={cityData} />
+				{cityData && <AreaCity cityData={cityData} />}
 				{filteredData && <AreaList filteredData={filteredData} />}
 			</main>
 		</>
 	);
 }
 
-// Function Filter
-function getFilteredData(listData, filterTemp, filterWind) {
+// () getFilteredData
+function getFilteredData(listData, filterTemp, filterWind, filterSky) {
 	const filteredData = listData
 		.filter(({ main }) => main && main.temp <= filterTemp)
-		.filter(({ wind }) => wind && wind.speed <= filterWind);
+		.filter(({ wind }) => wind && wind.speed <= filterWind)
+		.filter(({ clouds }) => clouds && clouds.all <= filterSky);
 	return filteredData;
 }
