@@ -1,0 +1,27 @@
+@use 'root';
+@use 'normalize';
+@use 'filter';
+@use 'home';
+@use 'main';
+
+// @use './public/assets/fontawesome-free-5.15.4-web/css/all.min.css';
+// @use './public/assets/weather-icons-master/css/weather-icons.min.css';
+// @use './public/assets/weather-icons-master/css/weather-icons-wind.min.css';
+
+body {
+	background-color: var(--theme-color-01);
+	color: var(--theme-text-color-01);
+}
+
+.filter_form {
+	/**/
+	.sky_icons {
+		// display: none;
+	}
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

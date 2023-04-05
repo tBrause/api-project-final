@@ -1,0 +1,78 @@
+/* AREA Filter*/
+.filter {
+	display: block;
+	background-color: #fff;
+
+	&_form {
+		display: block;
+		width: 90vw;
+		min-width: 280px;
+		max-width: 400px;
+		margin: auto;
+		// background-color: #65001c;
+	}
+	&_sky_icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 80px;
+		// max-width: 300px;
+		background-color: var(--theme-color-02);
+
+		li {
+			_background-color: green;
+			min-width: 45px;
+			text-align: center;
+			font-size: 1.5rem;
+			color: var(--filter-icon);
+			transition: all 1s;
+		}
+	}
+	&_temp_range,
+	&_wind_range {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem 0;
+		accent-color: var(--theme-color-06);
+
+		label {
+			min-width: 80px;
+		}
+		input {
+			width: calc(100% - 1rem);
+			// height: 1.9rem;
+			padding: 1rem 0;
+			max-width: 200px;
+			cursor: pointer;
+		}
+	}
+	&_sky_range {
+		// display: flex;
+		// justify-content: center;
+		// align-items: center;
+		padding: 1rem 0;
+
+		_background-color: #999;
+		text-align: center;
+		input[type='range'] {
+			width: calc(100% - 1rem);
+			height: 1.9rem;
+			padding: 1rem 0;
+			max-width: 200px;
+			cursor: pointer;
+			border: 1px solid #666;
+			box-shadow: #666;
+			// background: var(--theme-color-07);
+			border-radius: 5px;
+			background: #65001c;
+		}
+	}
+}
+
+.yes {
+	_font-size: 2rem;
+	color: var(--filter-icon-active);
+	transition: all 1s;
+}

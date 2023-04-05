@@ -1,0 +1,60 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../public/images/sun.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	h1 {
+		color: #fff;
+		font-size: 3rem;
+	}
+
+	&_form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: rgba(64, 64, 191, 10%);
+		min-width: 30vw;
+		min-height: 300px;
+		// border: 1px solid grey;
+		border-radius: 2rem;
+		box-shadow: 10px 10px 10px rgba(227, 234, 234, 0.1);
+		&_search,
+		&_auto {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			// border: 1px solid #666;
+			.fas {
+				font-size: 2rem;
+				margin: 0 1rem;
+			}
+		}
+		&_auto {
+			margin-bottom: 6%;
+		}
+	}
+}
+
+input[type='search'] {
+	width: 80%;
+	padding: 20px;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	padding: 0.5rem 0;
+	color: var(--filter-icon);
+	cursor: pointer;
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "owm_icon": "01d",
+        "desktop_icon": "wi-day-sunny"
+    },
+    {
+        "id": 2,
+        "owm_icon": "01n",
+        "desktop_icon": "wi-night-clear"
+    },
+    {
+        "id": 3,
+        "owm_icon": "02d",
+        "desktop_icon": "wi-day-sunny-overcast"
+    },
+    {
+        "id": 4,
+        "owm_icon": "02n",
+        "desktop_icon": "wi-night-alt-partly-cloudy"
+    },
+    {
+        "id": 5,
+        "owm_icon": "03d",
+        "desktop_icon": "wi-day-cloudy"
+    },
+    {
+        "id": 6,
+        "owm_icon": "03n",
+        "desktop_icon": "wi-night-alt-cloudy"
+    },
+    {
+        "id": 7,
+        "owm_icon": "04n",
+        "desktop_icon": "wi-night-alt-cloudy"
+    },
+    {
+        "id": 8,
+        "owm_icon": "04d",
+        "desktop_icon": "wi-day-cloudy"
+    },
+    {
+        "id": 9,
+        "owm_icon": "10d",
+        "desktop_icon": "wi-day-showers"
+    },
+    {
+        "id": 10,
+        "owm_icon": "10n",
+        "desktop_icon": "wi-night-showers"
+    }
+]
