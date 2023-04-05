@@ -10,7 +10,7 @@
 
 > Call 5 day / 3 hour forecast data
 
-> 60 calls/minute free
+> 60 calls/minute ar free
 
 ## Aufgaben
 
