@@ -11,7 +11,6 @@
 		// max-width: 400px;
 		margin: auto;
 		// background-color: #65001c;
-		display: flex;
 	}
 	&_sky_icons {
 		display: flex;
@@ -22,7 +21,6 @@
 		background-color: var(--theme-color-02);
 
 		li {
-			_background-color: green;
 			min-width: 45px;
 			text-align: center;
 			font-size: 1.5rem;
