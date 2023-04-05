@@ -22,7 +22,7 @@
 
 > Startseite mit Button für automatische Standortbestimmung und Input für Ortsnamensuche
 
-> :heavy_check_mark: Automatische Position mit GeoLocation bestimmen
+> :heavy_check_mark: Automatische Position mit GeoLocation bestimmen und in LocalStorage speichern
 
 > :heavy_check_mark: Daten von API-openweathermap mit redaxios
 
