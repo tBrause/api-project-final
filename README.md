@@ -6,7 +6,7 @@
 
 ## API
 
-[Dokumentation] (https://openweathermap.org/forecast5)
+[Dokumentation](https://openweathermap.org/forecast5)
 
 > Call 5 day / 3 hour forecast data
 
