@@ -14,13 +14,13 @@
 
 > Startseite mit Button für automatische Standortbestimmung und Input für Ortsnamensuche
 
-> :heavy_check_mark: vAutomatische Position mit GeoLocation bestimmen
+> :heavy_check_mark: Automatische Position mit GeoLocation bestimmen
 
 > :heavy_check_mark: Daten von API-openweathermap mit redaxios
 
-> :heavy_check_mark: API Daten in LocalStorage speicher
+> :heavy_check_mark: API Daten in LocalStorage speichern
 
-> :heavy_check_mark: Konfiguration der Icons mit JSON-Datei
+> Konfiguration der Icons mit JSON-Datei
 
 > :heavy_check_mark: Veröffentlichung @ [Vercel](https://api-project-final-g7mp.vercel.app/)
 
