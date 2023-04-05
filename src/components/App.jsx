@@ -2,7 +2,6 @@
 import { useState, useEffect } from 'react';
 
 // COMPONENTS
-import Search from './Search';
 import GetApi from './GetApi';
 
 // localStorage
@@ -22,7 +21,6 @@ export default function App() {
 
 		// ? localStorage
 		if (localLat && localLon) {
-			// Props
 			setLat(localLat);
 			setLon(localLon);
 			return;
@@ -35,7 +33,6 @@ export default function App() {
 				localStorage.setItem('lat', position.coords.latitude);
 				localStorage.setItem('lon', position.coords.longitude);
 
-				// Props
 				setLat(position.coords.latitude);
 				setLon(position.coords.longitude);
 
