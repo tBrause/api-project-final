@@ -4,13 +4,13 @@
 
 [@ Vercel](https://api-project-final-g7mp.vercel.app/)
 
-## API
+## OpenWeather API
 
 [Dokumentation](https://openweathermap.org/forecast5)
 
 > Call 5 day / 3 hour forecast data
 
-> 60 calls/minute
+> 60 calls/minute free
 
 ## Aufgaben
 
