@@ -20,6 +20,8 @@
 
 > _API Daten in LocalStorage speicher_
 
+> _Konfiguration der Icons mit JSON-Datei_
+
 > _Veröffentlichung @ [Vercel](https://npm-vite-react-sass-8oup.vercel.app/)_
 
 ## NPM-Packages
