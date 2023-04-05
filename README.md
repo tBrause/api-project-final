@@ -32,7 +32,7 @@
 
 > CMD: Projektordner erstellen und hinein wechseln
 
-    mkdir _Name_; cd _Name_
+    mkdir Name; cd Name
 
 > CMD: git clone & git remote remove orgin & npm install & npm run build & npm run dev
 
