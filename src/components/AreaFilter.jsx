@@ -55,6 +55,21 @@ export default function AreaFilter({
 	return (
 		<div className="filter">
 			<form className="filter_form" onSubmit={(e) => e.preventDefault()}>
+				<div className="filter_sky_range">
+					<label htmlFor="4">
+						<strong>Bewölkung</strong> (max. <strong>{handleSky}%</strong>)
+					</label>
+					<input
+						id="4"
+						type="range"
+						step="10"
+						min={Math.round(minSky(minMaxSky))}
+						max={Math.ceil(maxSky(minMaxSky))}
+						value={handleSky}
+						onChange={(e) => setRangeSky(e.target.value)}
+					/>
+				</div>
+
 				<div className="filter_temp_range">
 					<label htmlFor="2">
 						<strong>Temperatur</strong> (mind. <strong>{handleTemp} °C</strong>)
@@ -81,20 +96,6 @@ export default function AreaFilter({
 						max={Math.ceil(maxWind(minMaxWind))}
 						value={handleWind}
 						onChange={(e) => setRangeWind(e.target.value)}
-					/>
-				</div>
-				<div className="filter_sky_range">
-					<label htmlFor="4">
-						<strong>Bewölkung</strong> (max. <strong>{handleSky}%</strong>)
-					</label>
-					<input
-						id="4"
-						type="range"
-						step="10"
-						min={Math.round(minSky(minMaxSky))}
-						max={Math.ceil(maxSky(minMaxSky))}
-						value={handleSky}
-						onChange={(e) => setRangeSky(e.target.value)}
 					/>
 				</div>
 			</form>
