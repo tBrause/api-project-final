@@ -12,6 +12,8 @@
 
 > 60 calls/minute ar free
 
+![alt text](https://github.com/tBrause/api-project-final/blob/master/structure.jpg)
+
 ## Aufgaben
 
 > :heavy_check_mark: ENV-Variablen für persönliche Zugangsdaten (.env.local für Ausschluss bei GitHub)
