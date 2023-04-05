@@ -8,17 +8,17 @@
 
 > _ENV-Variablen für persönliche Zugangsdaten (.env.local für Ausschluss bei GitHub)_
 
-> Speichern des Aufrufs der Seite (API soll nur jede Stunde abgefragt werden)
+> _Speichern des Aufrufs der Seite (API soll nur jede Stunde abgefragt werden)_
 
 > Nach einer Stunde wird der Wert des Aufrufs aktualisiert
 
 > Startseite mit Button für automatische Standortbestimmung und Input für Ortsnamensuche
 
-> Position mit GeoLocation
+> _Automatische Position mit GeoLocation bestimmen_
 
-> Daten von API-openweathermap mit redaxios
+> _Daten von API-openweathermap mit redaxios_
 
-> API Daten in LocalStorage speicher
+> _API Daten in LocalStorage speicher_
 
 > _Veröffentlichung @ [Vercel](https://npm-vite-react-sass-8oup.vercel.app/)_
 
