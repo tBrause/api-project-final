@@ -54,7 +54,7 @@
 
 ## NPM-Packages
 
-### vite, react, sass, eslint, postcss, cssnano, cjs, vsc, git, redaxios, wouter
+### vite, react, sass, eslint, postcss, cssnano, cjs, vsc, git, redaxios
 
 ## Installation
 
