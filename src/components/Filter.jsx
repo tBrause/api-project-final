@@ -22,8 +22,6 @@ export default function Filter({ listData, cityData }) {
 		filterSky
 	);
 
-	// console.log(listData);
-
 	// RETURN
 	return (
 		<>
@@ -38,7 +36,9 @@ export default function Filter({ listData, cityData }) {
 			)}
 
 			{/* AreaResults */}
-			{filteredData && <AreaResults filteredData={filteredData} />}
+			{filteredData && (
+				<AreaResults filteredData={filteredData} listData={listData} />
+			)}
 
 			{/* AreaCity & AreaList */}
 			<main className="main_container">

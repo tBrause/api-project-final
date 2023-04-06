@@ -1,0 +1,6 @@
+GitHub: https://github.com/tBrause/api-project-final
+
+Bitte die Datei .env.locals in das Hauptverzeichnis kopieren.
+
+// ENV VAR
+VITE_OPENWEATHERMAP_API_KEY=b162164351c05deadf7a675ec65987be

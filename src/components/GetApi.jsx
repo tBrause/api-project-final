@@ -42,7 +42,7 @@ export default function GetApi({ lat, lon }) {
 		// ASYN Function
 		async function getApi() {
 			try {
-				// query
+				// req, res
 				const { data } = await axios(
 					'https://api.openweathermap.org/data/2.5/forecast',
 					{
@@ -82,6 +82,6 @@ export default function GetApi({ lat, lon }) {
 		getApi();
 	}, [lat, lon, localUpdate, cityData, listData, responseSuccess]);
 
-	// Return
+	// RETURN
 	return <>{listData && <Filter listData={listData} cityData={cityData} />}</>;
 }

@@ -1,8 +1,9 @@
+// COMPONENTS
 import AreaForecastHour from './AreaForecastHour';
 
+// EXPORT
 export default function AreaList({ filteredData }) {
-	// console.log(listData);
-
+	// RETURN
 	return (
 		<ol className="main_container_list">
 			{filteredData.map((item) => (
