@@ -4,7 +4,7 @@
 
 [@ Vercel](https://api-project-final-g7mp.vercel.app/)
 
-## OpenWeather API
+## OpenWeatherMap API
 
 [Dokumentation](https://openweathermap.org/forecast5)
 
@@ -13,6 +13,8 @@
 > 60 calls/minute ar free
 
 ## Aufgaben
+
+> :warning: Wenn die automatische Standortabfrage nicht bestätigt wird - Meldung!!!
 
 > :heavy_check_mark: ENV-Variablen für persönliche Zugangsdaten (.env.local für Ausschluss bei GitHub)
 
