@@ -28,7 +28,7 @@
 
 > :heavy_check_mark: API Daten in LocalStorage speichern
 
-> Konfiguration der Icons mit JSON-Datei
+> :heavy_check_mark: Konfiguration der Icons mit JSON-Datei
 
 > :heavy_check_mark: Einbinden von Font Awesome & weather-icon-master
 

@@ -50,27 +50,6 @@
 			cursor: pointer;
 		}
 	}
-	&_sky_range {
-		// display: flex;
-		// justify-content: center;
-		// align-items: center;
-		padding: 1rem 0;
-
-		_background-color: #999;
-		text-align: center;
-		input[type='range'] {
-			width: calc(100% - 1rem);
-			height: 1.9rem;
-			padding: 1rem 0;
-			max-width: 200px;
-			cursor: pointer;
-			border: 1px solid #666;
-			box-shadow: #666;
-			// background: var(--theme-color-07);
-			border-radius: 5px;
-			background: #65001c;
-		}
-	}
 }
 
 .yes {

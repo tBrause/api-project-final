@@ -41,12 +41,42 @@
     },
     {
         "id": 9,
-        "owm_icon": "10d",
+        "owm_icon": "09d",
         "desktop_icon": "wi-day-showers"
     },
     {
         "id": 10,
-        "owm_icon": "10n",
+        "owm_icon": "09n",
         "desktop_icon": "wi-night-showers"
+    },
+    {
+        "id": 11,
+        "owm_icon": "10d",
+        "desktop_icon": "wi-day-rain"
+    },
+    {
+        "id": 12,
+        "owm_icon": "10n",
+        "desktop_icon": "wi-night-alt-rain"
+    },
+    {
+        "id": 13,
+        "owm_icon": "11d",
+        "desktop_icon": "wi-day-thunderstorm"
+    },
+    {
+        "id": 14,
+        "owm_icon": "11n",
+        "desktop_icon": "wi-night-alt-storm-showers"
+    },
+    {
+        "id": 14,
+        "owm_icon": "13d",
+        "desktop_icon": "wi-day-snow"
+    },
+    {
+        "id": 15,
+        "owm_icon": "13n",
+        "desktop_icon": "wi-night-alt-snow"
     }
 ]
