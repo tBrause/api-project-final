@@ -70,7 +70,7 @@ export default function AreaForecastHour({ dt_txt, main, weather, wind }) {
 
 			{/* Wind */}
 			<span className="speed">
-				Wind: {speed}m/s
+				Wind: {speed} m/s
 				<i
 					className="wi wi-wind-direction wind_direction"
 					style={{ transform: `rotate(${deg + 180}deg)` }}

@@ -35,15 +35,13 @@ export default function Filter({ listData, cityData }) {
 				/>
 			)}
 
-			{/* AreaCity & AreaList */}
+			{/* AreaCity, AreaResults & AreaList */}
 			<main className="main_container">
 				{/* AreaCity */}
 				{cityData && <AreaCity cityData={cityData} />}
 
 				{/* AreaResults */}
-				{filteredData && (
-					<AreaResults filteredData={filteredData} listData={listData} />
-				)}
+				{filteredData && <AreaResults filteredData={filteredData} />}
 
 				{/* AreaList */}
 				{filteredData && <AreaList filteredData={filteredData} />}

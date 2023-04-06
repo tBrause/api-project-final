@@ -1,5 +1,5 @@
 // EXPORT
-export default function AreaResults({ filteredData, listData }) {
+export default function AreaResults({ filteredData }) {
 	// RETURN
 	return (
 		<>

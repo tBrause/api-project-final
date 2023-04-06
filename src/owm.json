@@ -42,12 +42,12 @@
     {
         "id": 9,
         "owm_icon": "09d",
-        "desktop_icon": "wi-day-showers"
+        "desktop_icon": "wi-day-rain"
     },
     {
         "id": 10,
         "owm_icon": "09n",
-        "desktop_icon": "wi-night-showers"
+        "desktop_icon": "wi-night-alt-showers"
     },
     {
         "id": 11,
