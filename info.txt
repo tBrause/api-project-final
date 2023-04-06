@@ -1,6 +1,10 @@
-GitHub: https://github.com/tBrause/api-project-final
+Lieber Jonathan,
+
+mein Projekt findest Du unter: GitHub: https://github.com/tBrause/api-project-final
 
 Bitte die Datei .env.locals in das Hauptverzeichnis kopieren.
 
 // ENV VAR
 VITE_OPENWEATHERMAP_API_KEY=b162164351c05deadf7a675ec65987be
+
+Bei Fragen: 0178 45 76 321 oder brause.torsten@gmail.com
