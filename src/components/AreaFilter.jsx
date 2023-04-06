@@ -47,6 +47,7 @@ export default function AreaFilter({
 	const minSky = (minMaxSky) => minMaxSky.reduce((x, y) => Math.min(x, y));
 	const maxSky = (minMaxSky) => minMaxSky.reduce((x, y) => Math.max(x, y));
 	const handleSky = rangeSky !== 0 ? rangeSky : Math.ceil(maxSky(minMaxSky));
+
 	useEffect(() => {
 		setFilterSky(parseInt(handleSky));
 	}, [setFilterSky, handleSky]);
@@ -62,9 +63,9 @@ export default function AreaFilter({
 					<input
 						id="4"
 						type="range"
-						step="10"
+						step="1"
 						min={Math.round(minSky(minMaxSky))}
-						max={Math.ceil(maxSky(minMaxSky))}
+						max={Math.round(maxSky(minMaxSky))}
 						value={handleSky}
 						onChange={(e) => setRangeSky(e.target.value)}
 					/>
