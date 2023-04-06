@@ -1,11 +1,12 @@
 /* AREA Filter*/
 .filter {
-	display: block;
 	background-color: #fff;
 
 	&_form {
 		display: flex;
 		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
 		width: 90vw;
 		min-width: 280px;
 		margin: auto;
