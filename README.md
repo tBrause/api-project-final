@@ -48,6 +48,8 @@
 
 > :heavy_check_mark: manifest.json for Mobile
 
+> MediaQuerys für Desktop
+
 ## Struktur
 
 ![alt text](https://github.com/tBrause/api-project-final/blob/master/structure.jpg?raw=true)
