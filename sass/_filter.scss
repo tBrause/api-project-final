@@ -8,16 +8,13 @@
 		justify-content: center;
 		width: 90vw;
 		min-width: 280px;
-		// max-width: 400px;
 		margin: auto;
-		// background-color: #65001c;
 	}
 	&_sky_icons {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		min-height: 80px;
-		// max-width: 300px;
 		background-color: var(--theme-color-02);
 
 		li {
@@ -37,23 +34,14 @@
 		align-items: center;
 		padding: 1rem 0;
 		min-width: 300px;
-		accent-color: var(--theme-color-06);
+		accent-color: var(--theme-color-08);
 
 		label {
-			min-width: 80px;
+			color: var(--theme-color-08);
 		}
 		input {
-			// width: calc(100% - 1rem);
-			// height: 1.9rem;
 			padding: 1rem 0;
-			// max-width: 200px;
 			cursor: pointer;
 		}
 	}
-}
-
-.yes {
-	_font-size: 2rem;
-	color: var(--filter-icon-active);
-	transition: all 1s;
 }

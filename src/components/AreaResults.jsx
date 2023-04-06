@@ -3,9 +3,10 @@ export default function AreaResults({ filteredData, listData }) {
 	// RETURN
 	return (
 		<>
-			{filteredData.length !== listData.length && (
-				<div>{filteredData.length} Zeiträume</div>
-			)}
+			<div className="result">
+				{filteredData.length}{' '}
+				{filteredData.length === 1 ? 'Zeitraum' : 'Zeiträume'}
+			</div>
 		</>
 	);
 }
